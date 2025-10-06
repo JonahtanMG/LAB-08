@@ -1,0 +1,14 @@
+li:nth-child(odd){
+    background-color: gray;
+}
+li::before{
+    content: "==>";
+}
+li:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+input[type="checkbox"]:checked + label::after {
+  content: " \005C\002F"; 
+  color: green;
+}
