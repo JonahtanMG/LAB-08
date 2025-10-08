@@ -1,14 +1,21 @@
-li:nth-child(odd){
+form li:nth-child(odd){
     background-color: gray;
 }
-li::before{
+form li:nth-child(even){
+    background-color: white;
+}
+form li::before{
     content: "==>";
 }
-li:hover{
+form li:hover{
     cursor: pointer;
     background-color: lightgray;
 }
 input[type="checkbox"]:checked + label::after {
-  content: " \005C\002F"; 
+  content: " \005C/"; 
   color: green;
+}
+main{
+    padding: 15px 20px;
+    background-color: burlywood;
 }

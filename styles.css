@@ -29,3 +29,7 @@ p::first-letter{
     content: "<----";
     color: green;
 }
+.contenedor{
+    padding: 15px 20px;
+    background-color: burlywood;
+}

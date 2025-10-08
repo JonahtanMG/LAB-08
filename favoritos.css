@@ -10,12 +10,16 @@ a:hover{
 a:active{
     color: orange;
 }
-li:nth-child(1){
-    background-color: yellow;
+.lista li:nth-child(1){
+    background-color: lightblue;
 }
-li:nth-child(2){
-    background-color: aqua;
+.lista li:nth-child(2){
+    background-color: lightgray;
 }
-li:nth-child(3){
-    background-color: chocolate;
+.lista li:nth-child(3){
+    background-color: lightcyan;
+}
+.contenedor{
+    padding: 15px 20px;
+    background-color: burlywood;
 }
